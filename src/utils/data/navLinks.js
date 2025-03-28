@@ -34,20 +34,24 @@ export const linksContact = [
         id: 1,
         icon: <RiYoutubeLine size={22} />,
         url: "https://www.youtube.com/@studiorakita3385/videos",
+        target: "_blank"
     },
     {
         id: 2,
         icon: <RiInstagramLine size={22} />,
         url: "https://www.instagram.com/highlights.studio.rakita",
+        target: "_blank"
     },
     {
         id: 3,
         icon: <RiFacebookLine size={22} />,
         url: "https://www.facebook.com/highlights.studio.rakita",
+        target: "_blank"
     },
     {
         id: 4,
         icon: <RiMailLine size={22} />,
         url: "/#kontakt",
+        target: ""
     },
 ]
