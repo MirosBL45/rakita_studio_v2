@@ -6,7 +6,7 @@ import Link from 'next/link';
 import RakitaLogo from '@/assets/favicon.ico';
 
 // data
-import { linksHomePage } from '@/utils/data/navLinks';
+import { linksHomePage, linksContact } from '@/utils/data/navLinks';
 
 // icons
 import { HiOutlineMenu } from 'react-icons/hi';
@@ -57,7 +57,7 @@ export default function Navbar() {
             </div>
             <div className="border-b border-gray-300 my-4">
               <p className="w-[85%] md:w-[90%] py-4">
-                Hajde da zajedno napravimo nešto legendarno
+                Hajde zajedno da napravimo nešto lepo
               </p>
             </div>
           </div>
@@ -69,6 +69,24 @@ export default function Navbar() {
                 </li>
               ))}
             </ul>
+            <div className="pt-40">
+              <p className="uppercase tracking-widest text-[#4CAF50]">
+                Ostanimo u kontaktu
+              </p>
+              <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
+                {linksContact.map((link) => (
+                  <Link
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    key={link.id}
+                    href={link.url}
+                    className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
+                  >
+                    {link.icon}
+                  </Link>
+                ))}
+              </div>
+            </div>
           </nav>
         </div>
       </div>
