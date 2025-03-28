@@ -34,24 +34,28 @@ export const linksContact = [
         id: 1,
         icon: <RiYoutubeLine size={22} />,
         url: "https://www.youtube.com/@studiorakita3385/videos",
-        target: "_blank"
+        target: "_blank",
+        title: 'Studio Rakita YouTube kanal',
     },
     {
         id: 2,
         icon: <RiInstagramLine size={22} />,
         url: "https://www.instagram.com/highlights.studio.rakita",
-        target: "_blank"
+        target: "_blank",
+        title: 'Studio Rakita Instagram stranica',
     },
     {
         id: 3,
         icon: <RiFacebookLine size={22} />,
         url: "https://www.facebook.com/highlights.studio.rakita",
-        target: "_blank"
+        target: "_blank",
+        title: 'Studio Rakita Facebook stranica',
     },
     {
         id: 4,
         icon: <RiMailLine size={22} />,
         url: "/#kontakt",
-        target: ""
+        target: "",
+        title: 'Studio Rakita kontakt',
     },
 ]

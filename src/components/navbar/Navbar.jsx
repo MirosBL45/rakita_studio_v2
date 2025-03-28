@@ -47,8 +47,8 @@ export default function Navbar() {
         <div
           className={
             navMenu
-              ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-230'
-              : 'fixed left-[-100%] top-0 p-10 ease-in duration-230'
+              ? ' fixed right-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-5 ease-in duration-230'
+              : 'fixed right-[-100%] top-0 p-5 ease-in duration-230'
           }
         >
           <div>

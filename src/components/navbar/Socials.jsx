@@ -13,7 +13,8 @@ export default function Socials() {
           target={link.target}
           key={link.id}
           href={link.url}
-          className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
+          title={link.title}
+          className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 hover:text-main-green ease-in duration-210"
         >
           {link.icon}
         </Link>
