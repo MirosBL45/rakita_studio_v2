@@ -1,5 +1,6 @@
 // icons
-import { RiYoutubeLine, RiInstagramLine, RiFacebookLine, RiMailLine } from 'react-icons/ri';
+import { RiYoutubeLine, RiInstagramLine, RiFacebookLine } from 'react-icons/ri';
+import { TfiEmail } from "react-icons/tfi";
 
 export const linksHomePage = [
     {
@@ -53,7 +54,7 @@ export const linksContact = [
     },
     {
         id: 4,
-        icon: <RiMailLine size={22} />,
+        icon: <TfiEmail size={22} />,
         url: "/#kontakt",
         target: "",
         title: 'Studio Rakita kontakt',

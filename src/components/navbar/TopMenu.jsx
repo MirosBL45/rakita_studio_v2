@@ -3,7 +3,7 @@ export default function TopMenu() {
     <div className="border-b border-gray-300 my-4">
       <p className="w-[85%] md:w-[90%] py-4">
         Zabeležite Vaše{' '}
-        <span className="uppercase text-main-green">Najbitnije</span> Trenutke!
+        <span className="uppercase text-main-green">Najvažnije</span> Trenutke!
       </p>
     </div>
   );
