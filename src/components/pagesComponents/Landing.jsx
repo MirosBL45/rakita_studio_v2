@@ -8,7 +8,7 @@ export default function Landing() {
         <section className="px-1 pt-18">
           <h6 className="uppercase text-sm tracking-widest text-gray-600">
             Zabeležite Vaše{' '}
-            <span className="uppercase text-main-green">Najbitnije</span>{' '}
+            <span className="uppercase text-main-green">Najvažnije</span>{' '}
             Trenutke!
           </h6>
           <h1 className="py-4 text-gray-700">
