@@ -1,5 +1,6 @@
 import React from 'react';
 import { Socials } from '../navbar/w-allNavbar';
+import { ProjectsBtn } from './w-allPagesComponents';
 
 export default function Landing() {
   return (
@@ -26,6 +27,7 @@ export default function Landing() {
             deteta, snimiti kuću iz vazduha radi prodaje ili poljoprivredno
             gazdinstvo zbog promocije, tu smo za vas.
           </h3>
+          <ProjectsBtn textOfButton={'Pogledajte Naše Radove'} />
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <Socials />
           </div>
