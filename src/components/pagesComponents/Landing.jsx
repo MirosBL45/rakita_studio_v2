@@ -4,16 +4,17 @@ import { ProjectsBtn } from './w-allPagesComponents';
 
 export default function Landing() {
   return (
-    <main id="home" className="w-full h-screen text-center">
+    <main id="home" className="w-[97%] mx-auto h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
-        <section className="px-1 pt-18">
+        <section className="px-1 pt-14">
           <h6 className="uppercase text-sm tracking-widest text-gray-600">
             Zabeležite Vaše{' '}
             <span className="uppercase text-main-green">Najvažnije</span>{' '}
             Trenutke!
           </h6>
           <h1 className="py-4 text-gray-700">
-            Snimamo kamerama visokih kvaliteta.
+            <span className="text-main-green">Snimamo</span> kamerama visokih
+            kvaliteta.
           </h1>
           <h2 className="py-2 text-gray-700">
             A za entuzijaste takođe

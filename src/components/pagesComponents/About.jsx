@@ -2,8 +2,11 @@ import { Numbers, Skills } from './w-allPagesComponents';
 
 export default function About() {
   return (
-    <div id="o_nama" className="w-full md:h-screen p-2 flex items-center py-16">
-      <div className="max-w-[1240px] m-auto flex flex-col items-center xl:flex-row mt-[100px] gap-8">
+    <div
+      id="o_nama"
+      className="w-[97%] mx-auto md:h-screen p-2 flex items-center py-16"
+    >
+      <div className="max-w-[1240px] m-auto flex flex-col justify-between items-center xl:flex-row xl:gap-36">
         {/* <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8"> */}
         <div className="flex-1 flex flex-col justify-center">
           {/* <div className="col-span-2"> */}
@@ -21,9 +24,7 @@ export default function About() {
           </p>
           <Numbers />
         </div>
-        <div className="flex flex-col w-full xl:max-w-[48%] h-[480px]">
-          <Skills />
-        </div>
+        <Skills />
       </div>
     </div>
   );

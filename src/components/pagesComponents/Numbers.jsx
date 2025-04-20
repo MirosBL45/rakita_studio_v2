@@ -34,7 +34,7 @@ export default function Numbers() {
           <div className="text-2xl xl:text-4xl font-extrabold text-main-green mb-2">
             {startCount ? <CountUp end={item.value} duration={2} /> : '0'} +
           </div>
-          <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
+          <div className="text-xs tracking-[1px] leading-[1.4] max-w-[100px]">
             {item.label}
           </div>
         </div>
