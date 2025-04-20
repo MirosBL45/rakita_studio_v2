@@ -1,7 +1,7 @@
 'use client';
 
 // next-react things
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 // components
 import { LogoNavbar, MainLinks, BottomMenu, TopMenu } from './w-allNavbar';
@@ -13,12 +13,34 @@ import { AiOutlineClose } from 'react-icons/ai';
 export default function Navbar() {
   const [navMenu, setNavMenu] = useState(false);
 
+  const [shadow, setShadow] = useState(false);
+  const [navBg, setNavBg] = useState('#ecf0f3');
+  const [linkColor, setLinkColor] = useState('#1f2937');
+
   function handleNav() {
     setNavMenu(!navMenu);
   }
 
+  useEffect(() => {
+    const handleShadow = () => {
+      if (window.scrollY >= 90) {
+        setShadow(true);
+      } else {
+        setShadow(false);
+      }
+    };
+    window.addEventListener('scroll', handleShadow);
+  }, []);
+
   return (
-    <header className="fixed w-full h-20 shadow-xl z-[100] px-3">
+    <header
+      style={{ backgroundColor: `${navBg}` }}
+      className={
+        shadow
+          ? 'fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300'
+          : 'fixed w-full h-20 z-[100]'
+      }
+    >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <LogoNavbar />
         <nav>
