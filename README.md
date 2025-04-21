@@ -14,6 +14,7 @@ Shooting events like weddings, sporting events, and high-altitude drone shooting
 ### 3. **Icons and Visuals**
 
 - **React Icons**: A library of popular icons integrated into the project to enhance the visual appeal.
+- **React-Countup**: I am using react-countup library to achieve the counter function.
 
 ### 4. **Email Services**
 
