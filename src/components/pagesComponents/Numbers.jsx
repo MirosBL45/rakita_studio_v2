@@ -9,7 +9,7 @@ import { numbersAbout } from '@/utils/data/aboutData';
 export default function Numbers() {
   const { ref, inView } = useInView({
     triggerOnce: true,
-    threshold: 0.4,
+    threshold: 0.2,
   });
 
   const [startCount, setStartCount] = useState(false);
