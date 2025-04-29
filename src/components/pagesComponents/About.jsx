@@ -7,9 +7,7 @@ export default function About() {
       className="w-[97%] mx-auto md:h-screen p-2 flex items-center"
     >
       <div className="max-w-[1240px] m-auto flex flex-col justify-between items-center xl:flex-row xl:gap-36">
-        {/* <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8"> */}
         <div className="flex-1 flex flex-col justify-center">
-          {/* <div className="col-span-2"> */}
           <p className="uppercase text-xl tracking-widest text-main-green">
             Studio Rakita.
           </p>
