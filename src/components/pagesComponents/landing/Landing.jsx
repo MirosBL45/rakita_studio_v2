@@ -1,6 +1,6 @@
 import React from 'react';
-import { Socials } from '../navbar/w-allNavbar';
-import { ProjectsBtn } from './w-allPagesComponents';
+import { Socials } from '../../navbar/w-allNavbar';
+import { ProjectsBtn } from '../w-allPagesComponents';
 
 export default function Landing() {
   return (

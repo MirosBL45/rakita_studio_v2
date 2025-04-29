@@ -1,4 +1,4 @@
-import { Numbers, Skills } from './w-allPagesComponents';
+import { Numbers, Skills } from './../w-allPagesComponents';
 
 export default function About() {
   return (
