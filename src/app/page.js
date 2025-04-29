@@ -1,4 +1,4 @@
-import { Landing, About, Services } from "@/components/pagesComponents/w-allPagesComponents";
+import { Landing, About, Services, Works } from "@/components/pagesComponents/w-allPagesComponents";
 
 export default function Home() {
   return (
@@ -6,6 +6,7 @@ export default function Home() {
       <Landing />
       <About />
       <Services />
+      <Works />
     </>
   );
 }

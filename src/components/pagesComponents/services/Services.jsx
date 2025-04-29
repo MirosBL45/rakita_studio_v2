@@ -5,7 +5,7 @@ export default function Services() {
   return (
     <div
       id="usluge"
-      className="max-w-[1240px] w-[97%] mx-auto flex flex-col gap-x-8 mt-50 md:mt-1.5"
+      className="max-w-[1240px] w-[97%] p-2 mx-auto flex flex-col gap-x-8 mt-50 md:mt-1.5"
     >
       {/* text */}
       <div className="flex flex-col text-left mb-4 xl:mb-0">
