@@ -10,8 +10,8 @@ export default function Services() {
       {/* text */}
       <div className="flex flex-col text-left mb-4 xl:mb-0">
         <h2 className="h2 xl:mt-8 mb-12">
-          Naše usluge
-          <span className="text-main-green">.</span>
+          Naše
+          <span className="text-main-green"> usluge</span>
         </h2>
         {servicesDataText.map((service) => (
           <p key={service.id} className="mb-6 mx-auto">

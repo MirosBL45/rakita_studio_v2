@@ -11,7 +11,9 @@ export default function About() {
           <p className="uppercase text-xl tracking-widest text-main-green">
             Studio Rakita.
           </p>
-          <h2 className="py-4">Svaki kadar ima priču.</h2>
+          <h2 className="py-4">
+            Svaki <span className="text-main-green">kadar</span> ima priču
+          </h2>
           <p className="py-2 text-gray-600">
             Razvijali smo se kroz mnogo godina rada na različitim projektima,
             uživajući u svakom trenutku. Vi uživate jer dobijate prelepe kadrove

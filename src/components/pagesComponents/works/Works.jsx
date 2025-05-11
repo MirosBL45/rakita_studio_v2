@@ -8,7 +8,9 @@ export default function Works() {
     >
       <div className="flex flex-col xl:flex-row gap-x-8">
         <div className="text-center flex xl:w-[30vw] flex-col lg:text-left mb-4 xl:mb-0">
-          <h2 className="h2 xl:mt-12">Naši radovi</h2>
+          <h2 className="xl:mt-12">
+            Naši <span className="text-main-green">radovi</span>
+          </h2>
           <p className="mb-4 max-w-[400px] mx-auto lg:mx-0">
             Pogledajte svet kroz naše objektive - doživite emocije i priče koje
             smo uhvatili u svakom kadru. Naš portfolio je svedočanstvo naše
