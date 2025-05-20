@@ -41,7 +41,7 @@ export default function Navbar() {
           : 'fixed w-full h-20 z-[100]'
       }
     >
-      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
+      <div className="flex justify-between items-center w-full h-full px-10 2xl:px-16">
         <LogoNavbar />
         <nav>
           <MainLinks

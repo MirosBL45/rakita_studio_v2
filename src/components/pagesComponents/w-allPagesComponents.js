@@ -5,5 +5,6 @@ import Numbers from "./about/Numbers";
 import Skills from "./about/Skills";
 import Services from "./services/Services";
 import Works from "./works/Works";
+import Contact from "./contact/Contact";
 
-export { Landing, About, ProjectsBtn, Numbers, Skills, Services, Works }
+export { Landing, About, ProjectsBtn, Numbers, Skills, Services, Works, Contact }
