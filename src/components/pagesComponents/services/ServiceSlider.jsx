@@ -31,7 +31,7 @@ export default function ServiceSlider() {
       pagination={{
         clickable: true,
       }}
-      className="h-[240px] sm:h-[340px]"
+      // className="h-[240px] sm:h-[340px]"
     >
       {serviceData.map((item, itemIndex) => (
         <SwiperSlide key={itemIndex}>
